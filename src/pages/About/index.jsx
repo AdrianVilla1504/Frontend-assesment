@@ -18,7 +18,7 @@ const About = () => {
 				</div>
 
 				<div className='about__container-text'>
-					<h2 className='about__name'>About</h2>
+					<h2 className='about__name'>About me</h2>
 					<p className='about__description'>
 						<span>
 						I am an industrial processor technician, a mechanical engineer, and
@@ -45,7 +45,7 @@ const About = () => {
 						</span>
 					</p>
 					<h4 className='about__topics-title'>
-						What i have learned in this course:
+						What i have learned in Make it Real's bootcamp:
 					</h4>
 					<ul className='about__topics-list'>
 						<li className='topics-item'>

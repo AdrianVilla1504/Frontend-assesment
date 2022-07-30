@@ -37,7 +37,7 @@
 }
 
 .header__title {
-	font-size: 30px;
+	font-size: 26px;
 }
 
 .about__container-info {
@@ -86,7 +86,7 @@ span{
 }
 
 .about__topics-list{
-	margin:  0px 0px 0px 90px;
+	margin:  0px 40px 0px 10px;
 	text-align: justify;
 
 
@@ -119,6 +119,10 @@ span{
 		position: fixed;
 	}
 
+	.header__title {
+		font-size: 30px;
+	}
+
 	.about__container-info {
 		display: flex;
 		flex-direction: row;
@@ -127,17 +131,24 @@ span{
 	}
 
 	.about__container-pic {
-		margin-top: 40px;
+		position: fixed;
+		margin: 70px 1px 75px 1px;
+		left: 0px;
+		top: -10px;
 	}
 
 	.about__container-text {
-		margin: 70px 50px 10px 60px;
+		margin: 96px 30px 75px 450px;
 		font-family: 'Cairo', sans-serif;
-
+		padding: 10px 20px 10px 20px;
 	}
 
 	.about__description {
 		text-align: left;
 		margin: 0px;
+	}
+
+	.about__topics-list{
+		margin:  0px 0px 0px 49px;
 	}
 }
