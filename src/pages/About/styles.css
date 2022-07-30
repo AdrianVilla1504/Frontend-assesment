@@ -1,0 +1,143 @@
+.about {
+	margin-top: 0px;
+	margin-bottom: 10px;
+  background-color: white;
+}
+
+
+.about__container-info {
+	margin-top: 30px;
+	margin-bottom: 0px;
+
+}
+
+.about__container-pic {
+	margin-top: 0px;
+  padding: 100px 40px 0px 40px;
+}
+
+
+.about__header {
+  position:  fixed;
+  margin-top: 0px;
+  margin-bottom: 0px;
+	text-align: center;
+	width: -webkit-fill-available;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	display: flex;
+	font-family: 'Cairo', sans-serif;
+	flex-direction: row;
+	justify-content: center;
+	background-color: black;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 5px 5px 5px gray;
+}
+
+.header__title {
+	font-size: 30px;
+}
+
+.about__container-info {
+	margin-top: 0px;
+}
+
+.about__container-pic {
+  margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 0px 10px 10px 10px;
+}
+
+.about__description {
+	text-align: left;
+	margin: 10px 50px;
+}
+
+.about__container-text{
+  margin-top: 50px;
+  background-color: blanchedalmond;
+  padding-top: 20px;
+  border-radius: 15px;
+  margin-bottom: 75px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+span{
+	display: inline-block;
+	text-indent: 20px;
+	margin-top: 10px;
+	text-align: justify;
+}
+.about__pic {
+	width: 340px;
+	border-radius: 10px;
+}
+
+.about__topics-title {
+	font-family: 'Cairo', sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+.about__topics-list{
+	margin:  0px 0px 0px 90px;
+	text-align: justify;
+
+
+}
+
+.footer__title{
+  background-color: rgba(114, 160, 230, 0.9);
+  border-color: transparent;
+  color: black;
+  font-size: 15px;
+  padding: 0px 20px;
+  border-radius: 5px;
+  font-family: 'Cairo', sans-serif;
+	text-decoration: none;
+}
+
+.footer__title:hover{
+  transition: 0.6s;
+  background-color: gainsboro;
+}
+
+.footer__title:active{
+  transition: 0.2s;
+  background-color: #3483fa;
+}
+
+
+@media (min-width: 1200px) {
+	.about__header {
+		position: fixed;
+	}
+
+	.about__container-info {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.about__container-pic {
+		margin-top: 40px;
+	}
+
+	.about__container-text {
+		margin: 70px 50px 10px 60px;
+		font-family: 'Cairo', sans-serif;
+
+	}
+
+	.about__description {
+		text-align: left;
+		margin: 0px;
+	}
+}

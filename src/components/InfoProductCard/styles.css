@@ -1,0 +1,75 @@
+.about{
+  background-color: blanchedalmond;
+}
+
+
+.container__card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly ;
+  align-items: center ;
+  padding: 40px 10px;
+  width: -webkit-fill-available;
+
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  margin: 40px 10px 0px 10px;
+  padding: 50px 20px 0px 20px;
+  width: 350px;
+  height: 260px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 10px #8080808c;
+}
+
+.card__visuals{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.visuals__title{
+  font-family: 'Cairo', sans-serif;
+  font-size: 20px ;
+}
+
+.visuals__image{
+  width: 70px;
+}
+
+.card__buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button__product-detail{
+  display: flex;
+  background-color: #3483FA;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  text-underline-offset: none;
+
+}
+
+.button__product-detail:hover{
+  background-color: rgba(65,137,230,.15);
+  border-color: transparent;
+  transition: 0.2s;
+  background-color: #3483fa;
+}
+
+.button__product-detail:active{
+  transition: 0.1s;
+  background-color: gainsboro;
+}
