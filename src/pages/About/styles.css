@@ -36,7 +36,7 @@
 	box-shadow: 5px 5px 5px gray;
 }
 
-.header__title {
+.header__title1 {
 	font-size: 26px;
 }
 
@@ -117,10 +117,13 @@ span{
 @media (min-width: 1200px) {
 	.about__header {
 		position: fixed;
+		justify-content: space-between;
+		align-items: center;
 	}
 
-	.header__title {
+	.header__title1 {
 		font-size: 30px;
+		margin-right: 260px;
 	}
 
 	.about__container-info {
@@ -138,7 +141,7 @@ span{
 	}
 
 	.about__container-text {
-		margin: 96px 30px 75px 450px;
+		margin: 120px 30px 75px 450px;
 		font-family: 'Cairo', sans-serif;
 		padding: 10px 20px 10px 20px;
 	}

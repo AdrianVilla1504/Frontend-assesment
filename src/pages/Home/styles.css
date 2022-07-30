@@ -63,3 +63,9 @@ footer{
   transition: 0.2s;
   background-color: #3483fa;
 }
+
+@media(min-width: 1200px){
+  .home__header{
+    font-size: 30px;
+  }
+}

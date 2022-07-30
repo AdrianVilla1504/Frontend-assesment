@@ -6,7 +6,12 @@ const About = () => {
 	return (
 		<div className='about'>
 			<header className='about__header'>
-				<h1 className='header__title'>Adrian Camilo Villa Jimenez</h1>
+				<Link to={'/'}>
+					<button className='header__button-back'>
+						Home
+					</button>
+				</Link>
+				<h1 className='header__title1'>Adrian Camilo Villa Jimenez</h1>
 			</header>
 			<div className='about__container-info'>
 				<div className='about__container-pic'>
