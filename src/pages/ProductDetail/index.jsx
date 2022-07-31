@@ -55,7 +55,8 @@ const ProductDetail = () => {
 					<span className='product__detail-price'>
 						{product.price}
 					</span>
-					<div className='product__detail-rating'>
+					{/* Problem to fix */}
+					{/* <div className='product__detail-rating'>
 						<span>
 							<b>Rate: </b>{product.rating.rate}
 						</span>
@@ -63,7 +64,7 @@ const ProductDetail = () => {
 							<b>Units avaliable: </b>{product.rating.count}
 						</span>
 					</div>
-
+ 					*/}
 					<div className='button__detail-container'>
 						<a className='detail__button-buy' href='https://i.pinimg.com/474x/66/24/82/66248255ae3ea95b1dc15703fe097c7f.jpg' target='_blank' >
 							Buy Now
