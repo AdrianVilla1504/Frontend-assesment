@@ -2,11 +2,15 @@
 
 ## 5 Ceremonias de Scrum mas importantes
 
---El Sprint Planning al comienzo del Sprint
---Daily Scrums a diario
---Un Sprint Review al final del Sprint para inspeccionar el incremento realizado.
---Y, finalmente, una Retrospectiva para inspeccionar el equipo y levantar mejoras que se apliquen en el siguiente Sprint.
---Adicionalmente se ha incorporado también una reunión de Grooming o Refinement, que sirve para, dentro del Sprint, afinar y aclarar ciertas historias de usuario que pudieron quedar pendientes durante el Sprint Planning.
+-El Sprint Planning al comienzo del Sprint.
+
+-Daily Scrums a diario.
+
+-Un Sprint Review al final del Sprint para inspeccionar el incremento realizado.
+
+-Y, finalmente, una Retrospectiva para inspeccionar el equipo y levantar mejoras que se apliquen en el siguiente Sprint.
+
+-Adicionalmente se ha incorporado también una reunión de Grooming o Refinement, que sirve para, dentro del Sprint, afinar y aclarar ciertas historias de usuario que pudieron quedar pendientes durante el Sprint Planning.
 
 ## ¿Qué son los wireframes?
 
