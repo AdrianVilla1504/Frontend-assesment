@@ -2,15 +2,15 @@
 
 ## 5 Ceremonias de Scrum mas importantes
 
--El Sprint Planning al comienzo del Sprint.
+- El Sprint Planning al comienzo del Sprint.
 
--Daily Scrums a diario.
+- Daily Scrums a diario.
 
--Un Sprint Review al final del Sprint para inspeccionar el incremento realizado.
+- Un Sprint Review al final del Sprint para inspeccionar el incremento realizado.
 
--Y, finalmente, una Retrospectiva para inspeccionar el equipo y levantar mejoras que se apliquen en el siguiente Sprint.
+- Y, finalmente, una Retrospectiva para inspeccionar el equipo y levantar mejoras que se apliquen en el siguiente Sprint.
 
--Adicionalmente se ha incorporado también una reunión de Grooming o Refinement, que sirve para, dentro del Sprint, afinar y aclarar ciertas historias de usuario que pudieron quedar pendientes durante el Sprint Planning.
+- Adicionalmente se ha incorporado también una reunión de Grooming o Refinement, que sirve para, dentro del Sprint, afinar y aclarar ciertas historias de usuario que pudieron quedar pendientes durante el Sprint Planning.
 
 ## ¿Qué son los wireframes?
 
@@ -18,9 +18,9 @@ En el diseño web, un wireframe o un diagrama wireframe es una representación v
 
 Herramientas que se pueden usar para hacer wireframes:
 
--- Papel y lapiz (manual)
--- Figma (digital)
--- Ludichart (digital)
+- Papel y lapiz (manual)
+- Figma (digital)
+- Ludichart (digital)
 
 ## Diferencia entre Var, let y Const
 
@@ -32,9 +32,9 @@ Herramientas que se pueden usar para hacer wireframes:
 
 ## 3 Comandos para crear una nueva rama llamada rama-1 son:
 
--- git checkout -b rama-1
--- git checkout -b rama-1
--- git switch -c rama-1
+- git checkout -b rama-1
+- git checkout -b rama-1
+- git switch -c rama-1
 
 ## Diferencia entre git merge y git rebase:
 
