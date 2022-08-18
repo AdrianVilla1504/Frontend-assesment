@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { getProducts } from '../../services/products';
 import InfoProductCard from '../InfoProductCard';
 
-
 const ProductCard = () => {
 	const [product, setProduct] = useState([]);
 
@@ -16,9 +15,7 @@ const ProductCard = () => {
 	return (
 		<div className='container__card'>
 			{product.map((product) => {
-				return (
-					<InfoProductCard product={product} key={product.id}/>
-				);
+				return <InfoProductCard product={product} key={product.id} />;
 			})}
 		</div>
 	);
