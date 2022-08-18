@@ -4,8 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import Timer from '../Timer/index';
 import './styles.css';
 
-const InfoProductCard = (props) => {
-	const { product } = props;
+const InfoProductCard = ({product}) => {
 	const [boolean, setBoolean] = useState(true);
 	const linking = useNavigate();
 	const handleClick = () => {
