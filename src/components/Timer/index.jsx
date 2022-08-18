@@ -1,9 +1,8 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 
-const Timer = (props) => {
+const Timer = ({setBoolean}) => {
 
-	const {setBoolean} =	props;
 	const [minutes, setMinutes] = useState(Math.floor(Math.random() * 3));
 	const [seconds, setSeconds] = useState(59);
 
